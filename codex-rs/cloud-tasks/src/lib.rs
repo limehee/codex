@@ -2332,12 +2332,12 @@ mod tests {
         assert_eq!(
             lines,
             vec![
-                "https://chatgpt.com/codex/tasks/task_1".to_string(),
+                "https://chatgpt.com/codex/cloud/tasks/task_1".to_string(),
                 "  [READY] Example task".to_string(),
                 "  Env  •  0s ago".to_string(),
                 "  +5/-2 • 3 files".to_string(),
                 String::new(),
-                "https://chatgpt.com/codex/tasks/task_2".to_string(),
+                "https://chatgpt.com/codex/cloud/tasks/task_2".to_string(),
                 "  [PENDING] No diff task".to_string(),
                 "  env-2  •  0s ago".to_string(),
                 "  no diff".to_string(),
